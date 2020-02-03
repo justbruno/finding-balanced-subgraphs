@@ -1,8 +1,5 @@
 import numpy as np
-import threading
-from multiprocessing import Process, Queue, Pool
-import traceback
-import timbal
+from multiprocessing import, Pool
 import utils
 
 THREADS = 4
